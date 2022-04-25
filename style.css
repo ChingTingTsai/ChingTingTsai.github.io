@@ -1,0 +1,24 @@
+#profile_picture{
+    width: 200px;
+}
+
+#github, #linkedin{
+    width: 50px;
+    padding: 5px;
+}
+
+#links{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+body{
+    background-color: rgb(227, 255, 255);
+}
+
+.body-align{
+    margin: 0px 100px;
+}
+
