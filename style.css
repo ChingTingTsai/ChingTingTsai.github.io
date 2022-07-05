@@ -1,5 +1,8 @@
 #profile_picture{
-    width: 200px;
+    width: 115px;
+    border-radius: 50%;
+    margin: 0 15px;
+    border: 3px solid rgb(45, 9, 249);
 }
 
 #github, #linkedin{
@@ -7,18 +10,86 @@
     padding: 5px;
 }
 
-#links{
+#link{
     display: flex;
     justify-content: center;
 
 }
 
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 50 0px;
+}
+
+#intro-name{
+    font-size: 50px;
+    margin: 0 15px;
+}
+
+#intro-links{
+    
+    display: flex;
+    justify-content: center;
+}
+
+#project-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25 0 25 0px;
+    padding: 0 100px;
+}
+
+#project-header{
+    margin: 0 0 60 0px;
+}
 
 body{
-    background-color: rgb(227, 255, 255);
+    margin: 0px;
+    background-color: rgba(227, 255, 255, 0.8); 
 }
 
 .body-align{
     margin: 0px 100px;
 }
 
+.block{
+    background-color: rgb(255, 255, 255);
+}
+
+.intro-link{
+    font-size: 20px;
+    margin: 0 15px;
+    padding: 10px;
+    background-color:rgb(3, 129, 92);
+    color: rgb(244, 243, 243);
+    border-radius: 15px;
+}
+
+.section1{
+    padding: 130 0px;
+    /* background-color: rgb(227, 255, 255); */
+}
+
+.section2{
+    padding: 130 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.project-picture{
+    width: 200px;
+}
+
+.project-innerblock{
+    padding: 15px;
+    background-color: rgb(253, 243, 231);
+    border-radius: 15px;
+}
+
+/* color table:
+    background: white
+    block: rgb(227, 255, 255)
+
+*/
