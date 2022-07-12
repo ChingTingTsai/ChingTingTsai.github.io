@@ -7,7 +7,7 @@
 
 #github, #linkedin{
     width: 50px;
-    padding: 5px;
+    padding: 20px;
 }
 
 #link{
@@ -46,13 +46,34 @@
     margin: 0 0 60 0px;
 }
 
+#contact-links{
+    margin: 20 200px;
+    display: flex;
+    align-items: center;
+}
+
+#aboutme-paragraph{
+    margin: 20 100px;
+}
+
+#resume-file{
+    width: 600px;
+    height: 600px;
+}
+
 body{
     margin: 0px;
-    background-color: rgba(227, 255, 255, 0.8); 
+    background-color: rgb(220, 255, 255); 
 }
 
 .body-align{
     margin: 0px 100px;
+}
+
+.resume-block{
+    margin: 20 200px;
+    display: flex;
+    align-items: center;
 }
 
 .block{
@@ -60,12 +81,18 @@ body{
 }
 
 .intro-link{
-    font-size: 20px;
+    font-size: 22px;
     margin: 0 15px;
-    padding: 10px;
-    background-color:rgb(3, 129, 92);
-    color: rgb(244, 243, 243);
+    padding: 13px;
+    background-color:rgb(34, 239, 184);
+    color: #fafad2;
     border-radius: 15px;
+    border-width: 0px;
+}
+
+.intro-link:hover{
+    cursor:pointer;
+    background-color:rgba(34, 239, 184,0.5);
 }
 
 .section1{
@@ -80,6 +107,7 @@ body{
 
 .project-picture{
     width: 200px;
+    height: 200px;
 }
 
 .project-innerblock{
