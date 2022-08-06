@@ -42,7 +42,7 @@
     padding: 0 100px;
 }
 
-#project-header{
+#project-header, #blog-header{
     margin: 0 0 60 0px;
 }
 
@@ -64,6 +64,24 @@
 body{
     margin: 0px;
     background-color: rgb(220, 255, 255); 
+}
+
+.project-link:link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.project-link:hover{
+    color: purple;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.project-link:visited{
+    color: purple;
+    text-decoration: underline;
+    background-color: transparent;
 }
 
 .body-align{
@@ -111,11 +129,29 @@ body{
 }
 
 .project-innerblock{
-    padding: 15px;
+    padding: 25px;
+    height: 350;
     background-color: rgb(253, 243, 231);
     border-radius: 15px;
 }
 
+.blog-block{
+    padding: 0 150px;
+    margin: 0 0 30 0px;
+}
+
+.blog-breakline{
+    width: 900px;
+}
+
+.blog-food{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.project-tools{
+    padding: 0 25px;
+}
 /* color table:
     background: white
     block: rgb(227, 255, 255)
