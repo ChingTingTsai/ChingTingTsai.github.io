@@ -30,27 +30,57 @@ EMAIL: chingtit@uci.edu
       </div>
       
       <div id="intro-links">
-        <div><input class="intro-button" type="button" value="About Me" onClick="document.getElementById('aboutme').scrollIntoView();"></div>
-        <div><input class="intro-button" type="button" value="Projects" onClick="document.getElementById('projects').scrollIntoView();"></div>
-        <div><input class="intro-button" type="button" value="Skills" onClick="document.getElementById('skill').scrollIntoView();"></div>
-        <div><input class="intro-button" type="button" value="Contact" onClick="document.getElementById('contact').scrollIntoView();"></div>
+        <div><input class="intro-button" type="button" value="About Me" onClick="document.getElementById('aboutme').scrollIntoView({behavior:'smooth'});"></div>
+        <div><input class="intro-button" type="button" value="Projects" onClick="document.getElementById('projects').scrollIntoView({behavior:'smooth'});"></div>
+        <div><input class="intro-button" type="button" value="Skills" onClick="document.getElementById('skill').scrollIntoView({behavior:'smooth'});"></div>
+        <div><input class="intro-button" type="button" value="Contact" onClick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});"></div>
         
       </div>
     </div>
   </div>
 
-  <img id="home-img" alt="homepage icon" src="img/home.png" onClick="document.getElementById('intro-section').scrollIntoView();">
+  <img id="home-img" alt="homepage icon" src="img/home.png" onClick="document.getElementById('intro-section').scrollIntoView({behavior:'smooth'});">
 
  <div class="section2" id="aboutme">
     <div class="body-align">
       <h1>ABOUT ME</h1>
+      
       <div class="content-div" id="aboutme-paragraph">
-        <h2>Hello, I'm TingTing</h2>
-        <p>I'm currently a fourth year Computer Science student at University of California, Irvine. I love coding and problem solving.
-          I'm also interested in the field of artificial intelligence and machine learning.</p>
+        <div>
+          <h2 class="center-text-h2">Hi, I'm TingTing</h2>
+          <div class="center-text-p" id="intro-paragraph">
+            <p>I'm currently a master's student studying Data Science and Artificial Intelligence at the University of Waterloo in Canada.
+              I'm passionate about building projects that make a positive impact on people's lives. 
+              I also love exploring new technologies and learning fresh ideas to bring into my work.
+           </p>
+           <p>
+              Feel free to contact me for collaborations!
+           </p>
+          </div>
+        </div>
+        
+        <hr>
+        <div id="intro-div">
+          <h3>Education</h3>
+          <ul>
+            <li>Master of Data Science and Artificial Intelligence @ University of Waterloo</li>
+            <li>Bachelor of Science in Computer Science @ University of California, Irvine</li>
+          </ul>
+          <h3>Fields of Interests</h3>
+          <ul>
+            <li>Machine Learning and Artificial Intelligence</li>
+            <li>Full-Stack Web Development</li>
+          </ul>
+          <h3>Hobbies</h3>
+          <ul>
+            <li>Badminton</li>
+            <li>Tap Dance</li>
+          </ul>
+        </div>
+        
       </div>
       <div class="d-flex justify-content-center">
-        <a href="Resume.pdf" class="button btn btn-info">My Resume</a>
+        <a href="file/resume.pdf" class="button btn btn-info">My Resume</a>
       </div>
     </div>
   </div>
@@ -60,48 +90,66 @@ EMAIL: chingtit@uci.edu
       <h1 id="project-header">PROJECTS</h1>
       <div class="content-div" id="project-block">
         <div class="project-innerblock">
+          <a class="project-link" href="file/sentiment analysis.pdf">
+            <img class="project-picture" alt="psyche" src="img/sentiment analysis.JPG">
+            <div class="project-text-block">
+              <div class="project-text">
+                Sentiment Analysis
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project-innerblock">
+          <a class="project-link" href="https://missiontopsyche.github.io/2022_18p_web-based_game/">
+            <img class="project-picture" alt="psyche" src="img/psyche.JPG">
+            <div class="project-text-block">
+              <div class="project-text">
+                Mission Control
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project-innerblock">
           <a class="project-link">
             <img class="project-picture" alt="fablix" src="img/fablix.JPG">
-          </a>
-          <div class="project-text-block">
-            <div class="project-text">
-              Fablix
+            <div class="project-text-block">
+              <div class="project-text">
+                Fablix
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="project-innerblock">
           <a class="project-link" href="https://github.com/ChingTingTsai/tetris">
             <img class="project-picture" alt="tetris" src="img/tetris.JPG">
-          </a>
-          <div class="project-text-block">
-            <div class="project-text">
-              Tetris
+            <div class="project-text-block">
+              <div class="project-text">
+                Tetris
+              </div>
             </div>
-          </div>
+          </a>
         </div>
     
         <div class="project-innerblock">
           <a>
             <img class="project-picture" alt="ICS search engine" src="img/search_engine.JPG">
-          </a>
-          <div class="project-text-block">
-            <div class="project-text">
-              ICS Search
-            </div>
-          </div>
-          
+            <div class="project-text-block">
+              <div class="project-text">
+                ICS Search
+              </div>
+            </div>          
+          </a>          
         </div>
 
         <div class="project-innerblock">
           <a class="project-link" href="https://github.com/ChingTingTsai/calculator">
             <img class="project-picture" alt="calculator" src="img/calculator.JPG">
-          </a>
-          <div class="project-text-block">
-            <div class="project-text">
-              Calculator
+            <div class="project-text-block">
+              <div class="project-text">
+                Calculator
+              </div>
             </div>
-          </div>
-          
+          </a>
         </div>
         
       </div>
@@ -187,7 +235,7 @@ EMAIL: chingtit@uci.edu
     </div>
     <div id="contact-block">
       <div class="d-flex justify-content-center">
-        <form>
+        <form action="mailto:tct20422@gmail.com" method="get" enctype="text/plain">
           <div class="form-group row">
             <label for="name" class="col-sm-2 col-form-label">Name</label>
             <div class="col-sm-10">

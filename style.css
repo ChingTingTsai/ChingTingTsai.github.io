@@ -13,6 +13,7 @@ hr{
     border: none;
     height: 1px;
     background-color: rgb(175, 180, 183);
+    margin: 5vh auto;
 }
 
 footer{
@@ -65,6 +66,13 @@ footer{
     margin: 60px 0px;
 }
 
+
+#intro-div{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
 #intro-name{
     font-size: 6vw;
     margin: 0 15px;
@@ -78,6 +86,11 @@ footer{
     margin: 60px 0px;
 }
 
+#intro-paragraph{
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 #intro-section{
     padding: 120px 0px 130px 0px;
@@ -86,6 +99,8 @@ footer{
     flex-direction: column;
     justify-content: center;
 }
+
+
 
 #link{
     display: flex;
@@ -157,6 +172,16 @@ footer{
     width: 200px;
 }
 
+.center-text-h2{
+    text-align: center;
+}
+
+.center-text-p{
+    text-align: center;
+    width: 80%;
+    align-items: center;
+}
+
 .content-div{
     margin: 5vh 13vh;
 }
@@ -168,6 +193,8 @@ footer{
     width: 15vh;
     padding: 20px;
 }
+
+
 
 .intro-button{
     font-size: 4vh;
@@ -184,6 +211,7 @@ footer{
     cursor:pointer;
     background-color: #177699;
 }
+
 
 .project-link:link{
     color: #0d465b;
