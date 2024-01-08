@@ -43,6 +43,12 @@ footer{
     line-height: 1;
 }
 
+#contact-img-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #contact-links{
     display: flex;
     align-items: center;
@@ -57,6 +63,7 @@ footer{
     bottom: 20px;
     right: 20px;
     cursor: pointer;
+    z-index: 999;
 }
 
 #intro{
@@ -68,7 +75,7 @@ footer{
 
 
 #intro-div{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -89,6 +96,7 @@ footer{
 #intro-paragraph{
     width: 80%;
     margin: 0 auto;
+    font-size: 18px;
 }
 
 
@@ -114,6 +122,7 @@ footer{
 }
 
 #skill-block{
+    padding: 0vh 20vh 9vh 20vh;
     display: flex;
     justify-content: center;
 }
@@ -145,7 +154,7 @@ footer{
 }
 
 #project-header, #blog-header{
-    margin: 0px 0px 60px 0px;
+    margin: 0px 0px 10px 0px;
 }
 
 
@@ -212,6 +221,14 @@ footer{
     background-color: #177699;
 }
 
+.intro-h3{
+    padding: 2vh 0vh 0vh 0vh;
+}
+
+.intro-list{
+    width: 95%;
+    margin: 2vh auto;
+}
 
 .project-link:link{
     color: #0d465b;
@@ -259,6 +276,7 @@ footer{
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
+
 
 .project-innerblock:hover .project-picture{
     opacity: 0.9;
